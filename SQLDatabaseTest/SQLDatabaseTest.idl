@@ -1,0 +1,29 @@
+// SQLDatabaseTest.idl : type library source for SQLDatabaseTest.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (SQLDatabaseTest.tlb).
+
+[ uuid(F03338E4-5275-4501-A743-E565621AC322), version(1.0) ]
+library SQLDatabaseTest
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CSQLDatabaseTestDoc
+	
+	[ uuid(B4464F34-3A49-4307-9259-20740788B214) ]
+	dispinterface ISQLDatabaseTest
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CSQLDatabaseTestDoc
+	
+	[ uuid(3CB48DAF-C443-4ED3-B317-B6A5AC8A5361) ]
+	coclass SQLDatabaseTest
+	{
+		[default] dispinterface ISQLDatabaseTest;
+	};
+};

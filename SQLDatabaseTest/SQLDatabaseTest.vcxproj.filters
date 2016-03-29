@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SQLite">
+      <UniqueIdentifier>{a691a706-0ca1-46a9-b619-a0b4d5c3de01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{05d21f57-2dd9-4417-9ec1-8635649e60f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SQLite">
+      <UniqueIdentifier>{ec7b2acf-e3a0-49ba-860d-b5b08199b84b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{879808e8-282c-44c9-8b53-2e97a68f3fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DBBaseClasses">
+      <UniqueIdentifier>{cac243f6-0086-46b7-9804-79b34cb32465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DBBaseClasses">
+      <UniqueIdentifier>{3f4b5fd5-9e35-4320-8ac1-cfe32223d4fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SQLDatabaseTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLDatabaseTestDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkingDirectory.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryWorker.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledSQLiteQuery.h">
+      <Filter>Header Files\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteQueryStorage.h">
+      <Filter>Header Files\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLQuery.h">
+      <Filter>Header Files\DBBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSQLQueryID.h">
+      <Filter>Header Files\DBBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteException.h">
+      <Filter>Header Files\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="DBException.h">
+      <Filter>Header Files\DBBaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteDBProvider.h">
+      <Filter>Header Files\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDBProvider.h">
+      <Filter>Header Files\DBBaseClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SQLDatabaseTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLDatabaseTestDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkingDirectory.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryWorker.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CompiledSQLiteQuery.cpp">
+      <Filter>Source Files\SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteQueryStorage.cpp">
+      <Filter>Source Files\SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLQuery.cpp">
+      <Filter>Source Files\DBBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteException.cpp">
+      <Filter>Source Files\SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="DBException.cpp">
+      <Filter>Source Files\DBBaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteDBProvider.cpp">
+      <Filter>Source Files\SQLite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="SQLDatabaseTest.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SQLDatabaseTest.reg" />
+    <None Include="res\SQLDatabaseTest.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SQLDatabaseTest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SQLDatabaseTest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
