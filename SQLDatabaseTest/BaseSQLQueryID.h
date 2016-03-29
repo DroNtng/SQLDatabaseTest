@@ -1,5 +1,9 @@
 #pragma once
 
+//DroN 29-mart-2016: during implementation I have invented, that use queryes ID
+// is not possible, cause query results are very different from each other. So
+// I need to delete this file and rewrite every use of this enum
+//
 //enum contains non-negative(!) Base SQL procedure names
 enum BaseSQLQueryID
 {
